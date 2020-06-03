@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>health-test</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <div>Permission granted: {{response}}</div>
+    <br>
+    <ion-button (click)="pullData()">Pull Data From Health</ion-button>
+    <br>
+    <div>Response: {{data}}</div>
+  </div>
+</ion-content>
